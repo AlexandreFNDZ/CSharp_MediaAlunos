@@ -1,0 +1,8 @@
+C:\Users\alexandre.pereira\Documents\Projetos\CSharp\CSharp_CalculoMedia\CSharp_CalculoMedia\bin\Debug\CSharp_CalculoMedia.exe.config
+C:\Users\alexandre.pereira\Documents\Projetos\CSharp\CSharp_CalculoMedia\CSharp_CalculoMedia\bin\Debug\CSharp_CalculoMedia.exe
+C:\Users\alexandre.pereira\Documents\Projetos\CSharp\CSharp_CalculoMedia\CSharp_CalculoMedia\bin\Debug\CSharp_CalculoMedia.pdb
+C:\Users\alexandre.pereira\Documents\Projetos\CSharp\CSharp_CalculoMedia\CSharp_CalculoMedia\obj\Debug\CSharp_CalculoMedia.csprojAssemblyReference.cache
+C:\Users\alexandre.pereira\Documents\Projetos\CSharp\CSharp_CalculoMedia\CSharp_CalculoMedia\obj\Debug\CSharp_CalculoMedia.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.pereira\Documents\Projetos\CSharp\CSharp_CalculoMedia\CSharp_CalculoMedia\obj\Debug\CSharp_CalculoMedia.exe
+C:\Users\alexandre.pereira\Documents\Projetos\CSharp\CSharp_CalculoMedia\CSharp_CalculoMedia\obj\Debug\CSharp_CalculoMedia.pdb
+C:\Users\alexandre.pereira\Documents\Projetos\CSharp\CSharp_CalculoMedia\CSharp_CalculoMedia\bin\Debug\CSharp_CalculoMedia.xml

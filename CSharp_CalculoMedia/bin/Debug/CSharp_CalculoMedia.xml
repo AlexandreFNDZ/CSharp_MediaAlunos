@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSharp_CalculoMedia</name>
+    </assembly>
+    <members>
+        <member name="T:CSharp_CalculoMedia.Aluno">
+            <summary>
+            Cadastrar Aluno recebendo como parâmetros o e as notas parciais do aluno e Calcular a Média.
+            </summary>
+        </member>
+        <member name="P:CSharp_CalculoMedia.Aluno.Nome">
+            <summary>
+            Propriedade <see cref="P:CSharp_CalculoMedia.Aluno.Nome"/> do aluno.
+            </summary>
+        </member>
+        <member name="P:CSharp_CalculoMedia.Aluno.P1">
+            <summary>
+            Propriedade Nota da <see cref="P:CSharp_CalculoMedia.Aluno.P1"/> do aluno.
+            </summary>
+        </member>
+        <member name="P:CSharp_CalculoMedia.Aluno.P2">
+            <summary>
+            Propriedade Nota da <see cref="P:CSharp_CalculoMedia.Aluno.P2"/> do aluno.
+            </summary>
+        </member>
+        <member name="P:CSharp_CalculoMedia.Aluno.Media">
+            <summary>
+            Propriedade <see cref="P:CSharp_CalculoMedia.Aluno.Media"/> das notas da <see cref="P:CSharp_CalculoMedia.Aluno.P1"/> e <see cref="P:CSharp_CalculoMedia.Aluno.P2"/> do aluno.
+            </summary>
+        </member>
+        <member name="M:CSharp_CalculoMedia.Aluno.#ctor(System.String,System.Double,System.Double)">
+            <summary>
+            Construtor de cadastro e cálculo de <see cref="P:CSharp_CalculoMedia.Aluno.Media"/> do aluno.
+            </summary>
+            <param name="nome">Parâmetro que recebe o Nome do aluno.</param>
+            <param name="p1">Parâmetro que recebe a nota da P1 do aluno.</param>
+            <param name="p2">Parâmetro que recebe a nota da P2 do aluno.</param>
+        </member>
+        <member name="T:CSharp_CalculoMedia.TurmaDeAlunos">
+            <summary>
+            Criar Lista de Alunos e Calcular a média da turma.
+            </summary>
+        </member>
+        <member name="M:CSharp_CalculoMedia.TurmaDeAlunos.#ctor(System.Int32)">
+            <summary>
+            Construtor para criar um Array de objetos, do tipo <see cref="T:CSharp_CalculoMedia.Aluno"/>, com <paramref name="tamanhoInicial"/> informado ou padrão (5 slots).
+            </summary>
+            <param name="tamanhoInicial">Parâmetro opcional de tamanho inicial do array da turma de alunos.</param>
+        </member>
+        <member name="M:CSharp_CalculoMedia.TurmaDeAlunos.Adicionar(CSharp_CalculoMedia.Aluno)">
+            <summary>
+            Adicionar o objeto <see cref="T:CSharp_CalculoMedia.Aluno"/> cadastrado no slot disponível da lista <see cref="T:CSharp_CalculoMedia.TurmaDeAlunos"/>.
+            </summary>
+            <param name="aluno">Parâmetro objeto do tipo <see cref="T:CSharp_CalculoMedia.Aluno"/> que será incluído na lista <see cref="T:CSharp_CalculoMedia.TurmaDeAlunos"/>.</param>
+        </member>
+        <member name="M:CSharp_CalculoMedia.TurmaDeAlunos.VerificarCapacidade(System.Int32)">
+            <summary>
+            Verificar se existe slot vazio para o cadastro de <see cref="T:CSharp_CalculoMedia.Aluno"/> novo. Criar o espaço necessário, caso a lista esteja toda ocupada.
+            </summary>
+            <param name="tamanhoNecessário">Parâmetro que determina o tamanho necessário da lista <see cref="T:CSharp_CalculoMedia.TurmaDeAlunos"/>.</param>
+        </member>
+        <member name="M:CSharp_CalculoMedia.TurmaDeAlunos.MediaTurma">
+            <summary>
+            Calcular a Media da Turma toda, ou seja, todos os alunos da <see cref="T:CSharp_CalculoMedia.TurmaDeAlunos"/>.
+            </summary>
+            <returns>Retorna a Média da turma.</returns>
+        </member>
+        <member name="M:CSharp_CalculoMedia.TurmaDeAlunos.GetTotalAlunos">
+            <summary>
+            Retornar o número total de objetos contidos na lista.
+            </summary>
+            <returns>Retorna um valor inteiro que representa o total de Alunos cadastrados na <see cref="T:CSharp_CalculoMedia.TurmaDeAlunos"/>.</returns>
+        </member>
+        <member name="P:CSharp_CalculoMedia.TurmaDeAlunos.Item(System.Int32)">
+            <summary>
+            Indexador de acesso aos itens do array <see cref="F:CSharp_CalculoMedia.TurmaDeAlunos._aluno"/>.
+            </summary>
+            <param name="indice">Parâmetro que indica qual indice da lista que deseja informações.</param>
+            <returns>Retorna valor correspondente ao <paramref name="indice"/> correspondente no array <see cref="F:CSharp_CalculoMedia.TurmaDeAlunos._aluno"/>.</returns>
+        </member>
+    </members>
+</doc>
